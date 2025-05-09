@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Easily calculate subnet details like subnet mask, network address, broadcast address, IP range, block size, and more with this intuitive Subnet Calculator.">
+  <meta name="author" content="Satyajit Sethy">
+  <title>Subnet Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Subnet Calculator</h1>
+    <input type="text" id="ip" placeholder="Enter IP Address" />
+    <input type="text" id="cidr" placeholder="Enter CIDR" />
+    <button onclick="calculateSubnet()">Calculate</button>
+    <div class="result" id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
